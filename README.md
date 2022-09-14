@@ -1,2 +1,2 @@
 # Fablix
-FabFlix is a web-based ecommerce application that allows customers to locate movies, place them in a shopping cart, and checkout/pay with Stripe (similar to PayPal). The design uses microservices, identity management, and an API gateway.
+Fablix is a web-based ecommerce application that allows customers to browse movies, order them in a shopping cart, and checkout with Stripe. The design utilizes IDM authicator, microservices from other APIs and Spring Boot API gateway to speed up any HTTPs request.
