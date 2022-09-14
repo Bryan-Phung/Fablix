@@ -1,6 +1,438 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c19251f6-8c43-4748-996c-82ea883d57f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/.github/classroom/autograding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/.github/workflows/classroom.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/BillingService.log.2022-05-24.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/BillingService.log.2022-05-25.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/BillingService.log.2022-05-30.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/db/billing_movie_price.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/postman/BE3- Billing Service.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/BillingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/config/BillingServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/config/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/config/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/repo/BillingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/request/CartRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/request/PaymentIntentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/rest/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/rest/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/com/github/klefstad_teaching/cs122b/billing/util/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/model/CartResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/model/CartRetrieveResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/model/OrderCompleteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/model/OrderListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/java/model/PaymentIntentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/java/com/github/klefstad_teaching/cs122b/billing/BillingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/resources/billing-test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/resources/empty-billing-test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/resources/expected-models.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/resources/idm-test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Billing Service With Stripe/src/test/resources/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/FRONTEND-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/FRONTEND-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/FRONTEND-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/app/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/app/Content.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/app/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/backend/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/backend/idm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/hook/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/CartDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/CheckoutForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/MovieDetailWithId.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/MovieSearch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/OrderComplete.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/OrderDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/OrderHistory.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/OrderPayment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/pages/Register.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front End/src/variable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/.github/classroom/autograding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/.github/workflows/classroom.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.10.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.11.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.12.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.13.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.14.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.15.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.16.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.17.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.18.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.19.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.2.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.20.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.21.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.22.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.23.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.24.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.25.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.26.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.27.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.28.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.29.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.30.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.31.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.32.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.33.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.34.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.35.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.36.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.37.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.38.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.39.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.4.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.40.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.5.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.7.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.8.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/GatewayService.log.2022-05-16.9.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/postman/BE4- Gateway Service.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/GatewayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/config/GatewayRequestObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/config/GatewayServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/config/MyCustomResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/config/authenticateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/filter/GlobalLoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/repo/GatewayRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/java/com/github/klefstad_teaching/cs122b/gateway/routes/GatewayRouteLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/java/com/github/klefstad_teaching/cs122b/gateway/GatewayServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/java/com/github/klefstad_teaching/cs122b/gateway/helper/ExpectedModels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/java/com/github/klefstad_teaching/cs122b/gateway/helper/MockServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/java/com/github/klefstad_teaching/cs122b/gateway/helper/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/java/com/github/klefstad_teaching/cs122b/gateway/helper/WebExchangeWithIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/resources/empty-gateway-test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway Service With Spring/src/test/resources/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/.github/classroom/autograding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/.github/workflows/classroom.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/IdmService.log.2022-05-25.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/IdmService.log.2022-05-30.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/IdmService.log.2022-05-31.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/db/idm.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/postman/BE1- IDM Service.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/refresh_token_flowchart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/IDMService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/component/IDMAuthenticationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/component/IDMJwtManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/config/IDMServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/repo/IDMRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/repo/entity/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/repo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/repo/entity/type/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/repo/entity/type/TokenStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/repo/entity/type/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/request/authenticateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/request/refreshRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/request/registerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/response/AuthenticateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/response/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/response/registerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/rest/IDMController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/java/com/github/klefstad_teaching/cs122b/idm/util/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/main/resources/ec-key.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/test/java/com/github/klefstad_teaching/cs122b/idm/IDMServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/test/resources/ec-key.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IDM Service/src/test/resources/idm-test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/androidTest/java/com/example/cs122b_frontend4/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/app/src/test/java/com/example/cs122b_frontend4/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile Application/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/.github/classroom/autograding.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/.github/workflows/classroom.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/MovieService.log.2022-05-25.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/MovieService.log.2022-05-30.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/MovieService.log.2022-05-31.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db/0_genre.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db/1_person.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db/2_movie.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db/3_movie_genre.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db/4_movie_person.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/db/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/postman/BE2- Movies Service.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/MoviesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/config/DetailMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/config/GenericInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/config/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/config/MoviesServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/config/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/data/MovieOrderBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/model/GetMovieByIDResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/model/MovieSearchResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/model/PersonIDSearchResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/model/PersonSearchResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/repo/MovieRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/request/GetPersonIDRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/request/MovieSearchPersonIDRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/request/MovieSearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/request/PersonSearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/request/getMovieIDRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/rest/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/rest/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/util/JWTManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/java/com/github/klefstad_teaching/cs122b/movies/util/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/test/java/com/github/klefstad_teaching/cs122b/movies/MoviesServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/test/resources/expected-models.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movie Search and Database/src/test/resources/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ejm7kYKLMzKVAPboovkgmeXfZr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gaming Pc\Documents\GitHub\Fablix" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="FabFlix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="FabFlix" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="FabFlix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c19251f6-8c43-4748-996c-82ea883d57f4" name="Changes" comment="" />
+      <created>1663117206052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663117206052</updated>
+      <workItem from="1663117208975" duration="972000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

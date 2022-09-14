@@ -1,0 +1,24 @@
+{
+  "baseUrlForLogin": "http://localhost:8081",
+  "baseUrlForSearches": "http://localhost:8082",
+  "baseUrlForBilling": "http://localhost:8085",
+  "idm": {
+    "login": "/login",
+    "register": "/register"
+  },
+  "movie": {
+    "searchMovies": "/movie/search",
+    "searchMovieById" : "/movie/"
+  },
+  "billing" : {
+    "cartInsert" : "/cart/insert",
+    "cartUpdate" : "/cart/update",
+    "cartDelete" : "/cart/delete/",
+    "cartRetrieve" : "/cart/retrieve",
+    "cartClear" : "/cart/clear",
+    "checkOut" : "/order/payment",
+    "orderComplete" : "/order/complete",
+    "orderList" : "/order/list",
+    "orderDetail" : "/order/detail/"
+  }
+}

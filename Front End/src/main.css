@@ -1,0 +1,336 @@
+
+
+
+
+
+@import url(./variable.css);
+
+
+
+
+@import url(./index.css);
+
+.homeContainer{
+    max-width: 1500px;
+    margin: 25px 50px 50px 80px;
+}
+
+/*
+NAVIGATION BAR MENU
+ */
+
+.navbar-navRight{
+    margin-left: 700px;
+    display :flex;
+}
+
+.navbar-navRight li
+{
+    margin-left: 60px;
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu-btn{
+    display:none;
+}
+
+.navbar-nav{
+    display: flex;
+}
+
+.navbar-nav li
+{
+    margin-right: 60px;
+}
+/*BANNNNNNNNNNER
+ */
+
+.banner{
+    margin-bottom: 10px;
+    margin-top: -170px;
+}
+
+.banner-card{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.banner-img{
+    object-position:top;
+    /*position : absolute;*/
+}
+
+.banner-card:hover .banner-img{
+    transform: scale(1.1);
+}
+
+.banner-card .card-content{
+    position: sticky;
+    right: 80px;
+    bottom: 60px;
+    left: 80px;
+}
+
+.banner-card .card-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.banner-card .card-info div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.banner-card .card-info ion-icon{
+    display: flex;
+    color: var(--azure);
+    margin-right: 5px;
+}
+
+.banner-card card.info span{
+    font-weight: var(--fw-6);
+}
+
+.banner-card .card-title{
+    font-size: 3em;
+    color: var(--white);
+    text-shadow: 2px 0 black;
+}
+
+/*
+*   movie grid
+ */
+.movies-grid{
+    display:grid;
+    grid-template-columns: 150px 1fr 2fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.movie-card{
+    --scale: 1;
+}
+
+.movie-card .card-head{
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    overflow : visible
+}
+
+.movie-card .card-img {border-radius: 30px;}
+
+.movie-card .card-overlay {
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(5px);
+}
+
+.movie-card:hover .card-overlay {opacity: 1;}
+
+.movie-card .bookmark,
+.movie-card .rating
+{
+    position: absolute;
+    top: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    font-size : 15px;
+    color: var(--light-azure);
+    transform: scale(var(--scale));
+}
+
+.movie-card .bookmark{
+    background: var(--oxford-blue);
+    left: 15px;
+}
+
+.movie-card .bookmark:hover{
+    color: var(--yellow);
+}
+
+.movie-card .rating {
+    display : flex;
+    align-items: center;
+    right: 15px;
+    background: var(--oxford-blue-50);
+}
+
+.movie-card .rating span{
+    color: var(--white);
+    font-size : 13px;
+    font-weight: var(--fw-5);
+    margin-left: 5px;
+}
+
+.movie-card:hover :is(.bookmark, .rating, .play) {
+    --scale : 1;
+}
+
+.movie-card .card-title{
+    font-size: var(--fs-md);
+    font-weight: var(--fw-5);
+    margin-bottom: 5px;
+}
+
+.movie-card:hover .card-title{
+    color: var(--light-azure);
+}
+.movie-card .card-info{
+    display: flex;
+    font-size: var(--fs-x-sm);
+    font-weight: var(--fw-5);
+}
+
+.movie-card .genre{
+    margin-right : 8px;
+}
+
+/*
+*   FOR MOVIE DETAIL PAGE
+ */
+
+.banner-movieDetail {
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    left : 0;
+    max-height: 800px;
+    width : 2000px;
+    background-color: rgba(255, 100, 100, 0.4);
+    opacity : 0.5;
+}
+
+.banner-movieDetail:hover{
+    opacity: 1;
+}
+
+.movie-detail-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.add-button-cart{
+    font-size : 20px;
+    color : var(--oxford-blue-50);
+    background-color : var(--off-white);
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin-left : 10px;
+    margin-top : 15px;
+    padding: 0;
+}
+
+.add-button-cart:hover {
+    background-color: var(--oxford-blue);
+    color : red;
+}
+.input-number{
+    font-size : 20px;
+    color : var(--oxford-blue-50);
+    background-color : var(--off-white);
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin : 15px;
+    padding: 0;
+}
+
+.movie-detail-info{
+    margin-left : 600px;
+    margin-top : 20px;
+    font-size : 20px;
+    color : var(--white);
+}
+
+.movie-detail-info-year{
+    margin-left : 600px;
+    margin-top : 20px;
+    font-size : 20px;
+    color : var(--white);
+}
+
+.movie-detail-info-btn{
+    display : flex;
+    padding: 0;
+}
+
+.movie-detail-img{
+    position: absolute;
+    height: 500px;
+    width : 350px;
+    border-radius: 15px;
+    overflow : hidden;
+    left : 100px;
+    top : 80px;
+}
+
+/*
+FOR UNIT PRICE DIV
+ */
+
+.cart-updates{
+    display : flex;
+    padding: 10px;
+}
+
+/*
+*   CART DETAILS
+ */
+.container-cart-details {
+    height: 160vh;
+    width: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 10px 2fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.filter-dropdowns{
+    color: var(--white);
+    font-size: var(--fs-sm);
+    background-color : black;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.justPointer:hover{
+    cursor: pointer;
+}
+/*
+*   FOR ORDER HISTORY
+ */
+
+.container-history {
+    height: 160vh;
+    width: 200vh;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.sale-info {
+    display : grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+input, select, textarea{
+    color: var(--off-white);
+}
